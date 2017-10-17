@@ -24,6 +24,9 @@ public:
 class CountDn : public Counter      // Derived class (child class)
 {
 public:
+    CountDn();
+    CountDn(unsigned int count);
+
     Counter operator --();
 };
 
